@@ -34,7 +34,6 @@ public class Map extends JPanel {
     public void paintComponent(Graphics g){
         super.paintComponents(g);
         g.setColor(Color.RED);
-        g.drawOval(500,500,10,10);
         try {
             drawPoints(g);
         } catch (IOException e) {
@@ -45,27 +44,31 @@ public class Map extends JPanel {
     public void drawPoints (Graphics g) throws IOException {
         super.paintComponent(g);
         //makefile();
-        String fileName = "src/coorinates/xyz.txt";
+        String fileName = "src/coorinates/test.txt";
         BufferedReader file = new BufferedReader(new FileReader(fileName));
         ArrayList<Double> xCoordinate = new ArrayList<Double>();
         ArrayList<Double> yCoordinate = new ArrayList<Double>();
         String c2 = file.readLine();
-        try{
+        try {
+            Graphics2D g2 = (Graphics2D) g;
             while ((c2 = file.readLine()) != null) {
                 c2 = file.readLine();
                 String[] arr = c2.split(" ");
                 xCoordinate.add(Double.parseDouble(arr[0]));
                 yCoordinate.add(Double.parseDouble(arr[1]));
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        Graphics2D g2 = (Graphics2D) g;
-        for (double x : xCoordinate){
-            for (double y : yCoordinate){
-                Ellipse2D point = new Ellipse2D.Double(x,y,0.5,0.5);
+                Ellipse2D point = new Ellipse2D.Double(Double.parseDouble(arr[0]), Double.parseDouble(arr[1]), 0.5, 0.5);
                 g2.draw(point);
             }
+
+//            Graphics2D g2 = (Graphics2D) g;
+//            for (double x : xCoordinate) {
+//                for (double y : yCoordinate) {
+//                    Ellipse2D point = new Ellipse2D.Double(x, y, 0.5, 0.5);
+//                    g2.draw(point);
+//                }
+//            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

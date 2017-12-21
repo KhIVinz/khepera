@@ -6,7 +6,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128cf209-d95e-463e-ba1c-7221ad029d5b" name="Default" comment="" />
+    <list default="true" id="128cf209-d95e-463e-ba1c-7221ad029d5b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/serverinz_jar/serverinz.jar" afterPath="$PROJECT_DIR$/out/artifacts/serverinz_jar/serverinz.jar" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/Connection$5.class" afterPath="$PROJECT_DIR$/out/production/serverinz/Connection$5.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/Connection$6.class" afterPath="$PROJECT_DIR$/out/production/serverinz/Connection$6.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/Connection$7.class" afterPath="$PROJECT_DIR$/out/production/serverinz/Connection$7.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/Connection.class" afterPath="$PROJECT_DIR$/out/production/serverinz/Connection.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/DrawPane.class" afterPath="$PROJECT_DIR$/out/production/serverinz/DrawPane.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/GuiApp$1.class" afterPath="$PROJECT_DIR$/out/production/serverinz/GuiApp$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/GuiApp.class" afterPath="$PROJECT_DIR$/out/production/serverinz/GuiApp.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/Map.class" afterPath="$PROJECT_DIR$/out/production/serverinz/Map.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/MapGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/MapGeneratorGUI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/serverinz/MyFrame.class" afterPath="$PROJECT_DIR$/out/production/serverinz/MyFrame.class" />
+      <change beforePath="$PROJECT_DIR$/src/GuiApp.form" afterPath="$PROJECT_DIR$/src/GuiApp.form" />
+      <change beforePath="$PROJECT_DIR$/src/GuiApp.java" afterPath="$PROJECT_DIR$/src/GuiApp.java" />
+      <change beforePath="$PROJECT_DIR$/src/Map.java" afterPath="$PROJECT_DIR$/src/Map.java" />
+      <change beforePath="$PROJECT_DIR$/src/MapGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/MapGeneratorGUI.form" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/MapGeneratorGUI.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" afterPath="$PROJECT_DIR$/src/MyFrame.java" />
+      <change beforePath="$PROJECT_DIR$/src/TCPServer.java" afterPath="$PROJECT_DIR$/src/TCPServer.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,46 +46,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MapGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapGeneratorGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MapGeneratorGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyFrame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="363">
+              <caret line="61" column="115" lean-forward="false" selection-start-line="61" selection-start-column="115" selection-end-line="61" selection-end-column="115" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapGeneratorGUI.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MapGeneratorGUI.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -77,14 +68,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TCPServer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TCPServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TCPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3297">
-              <caret line="200" column="50" lean-forward="false" selection-start-line="200" selection-start-column="50" selection-end-line="200" selection-end-column="50" />
+            <state relative-caret-position="90">
+              <caret line="254" column="69" lean-forward="false" selection-start-line="254" selection-start-column="69" selection-end-line="254" selection-end-column="69" />
               <folding>
-                <element signature="e#7003#7004#0" expanded="true" />
-                <element signature="e#7053#7054#0" expanded="true" />
+                <element signature="e#6875#6876#0" expanded="true" />
+                <element signature="e#6920#6921#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,12 +94,12 @@
       <file leaf-file-name="GuiApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GuiApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="200" column="36" lean-forward="false" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="211" column="34" lean-forward="false" selection-start-line="211" selection-start-column="34" selection-end-line="211" selection-end-column="34" />
               <folding>
                 <element signature="method#getConnection#0;class#GuiApp#0" expanded="false" />
-                <element signature="e#5782#5783#0" expanded="true" />
-                <element signature="e#5827#5828#0" expanded="true" />
+                <element signature="e#6230#6231#0" expanded="true" />
+                <element signature="e#6275#6276#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +115,8 @@
       <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="1155">
+              <caret line="55" column="45" lean-forward="false" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,6 +153,7 @@
       <find>pointlist</find>
       <find>startscan</find>
       <find>buttonu</find>
+      <find>s</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -198,15 +190,15 @@
         <option value="$PROJECT_DIR$/src/MapGenerator.form" />
         <option value="$PROJECT_DIR$/filename.txt" />
         <option value="$PROJECT_DIR$/src/coorinates/xyz2.txt" />
-        <option value="$PROJECT_DIR$/src/Map.java" />
-        <option value="$PROJECT_DIR$/src/GuiApp.form" />
-        <option value="$PROJECT_DIR$/src/TCPServer.java" />
         <option value="$PROJECT_DIR$/src/coorinates/xyz.txt" />
         <option value="$PROJECT_DIR$/src/MapGeneratorGUI.form" />
-        <option value="$PROJECT_DIR$/src/MapGenerator.java" />
         <option value="$PROJECT_DIR$/src/MapGeneratorGUI.java" />
-        <option value="$PROJECT_DIR$/src/GuiApp.java" />
+        <option value="$PROJECT_DIR$/src/Map.java" />
+        <option value="$PROJECT_DIR$/src/MapGenerator.java" />
         <option value="$PROJECT_DIR$/src/MyFrame.java" />
+        <option value="$PROJECT_DIR$/src/TCPServer.java" />
+        <option value="$PROJECT_DIR$/src/GuiApp.java" />
+        <option value="$PROJECT_DIR$/src/GuiApp.form" />
       </list>
     </option>
   </component>
@@ -217,8 +209,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="727" />
-    <option name="y" value="95" />
+    <option name="x" value="667" />
+    <option name="y" value="63" />
     <option name="width" value="1080" />
     <option name="height" value="744" />
   </component>
@@ -261,6 +253,12 @@
               <item name="serverinz-develop" type="b2602c69:ProjectViewProjectNode" />
               <item name="serverinz-develop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MyFrame.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="serverinz-develop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverinz-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TCPServer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -288,15 +286,15 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="ToolWindow" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Gumiś\Desktop\serverinz-develop\src\coorinates" />
-      <recent name="C:\Users\Gumiś\Desktop\serverinz-develop\src" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gumiś\Desktop\serverinz-develop\src\coorinates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gumiś\Desktop\serverinz-develop\src\coorinates" />
+      <recent name="C:\Users\Gumiś\Desktop\serverinz-develop\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -441,12 +439,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29673913" sideWeight="0.5469083" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5085324" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.45309168" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.45309168" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17400645" sideWeight="0.48726654" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17185822" sideWeight="0.48726654" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43550166" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.49146757" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.16756175" sideWeight="0.51273346" order="4" side_tool="true" content_ui="tabs" x="985" y="75" width="690" height="730" />
@@ -459,7 +458,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43550166" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -467,7 +465,45 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="72" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Map.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Map.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Map.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Map.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyFrame.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyFrame.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="82" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -481,8 +517,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7003#7004#0" expanded="true" />
-            <element signature="e#7053#7054#0" expanded="true" />
+            <element signature="e#6875#6876#0" expanded="true" />
+            <element signature="e#6920#6921#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -493,8 +529,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7003#7004#0" expanded="true" />
-            <element signature="e#7053#7054#0" expanded="true" />
+            <element signature="e#6875#6876#0" expanded="true" />
+            <element signature="e#6920#6921#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -671,11 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GuiApp.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filename.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -692,52 +723,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TCPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3297">
-          <caret line="200" column="50" lean-forward="false" selection-start-line="200" selection-start-column="50" selection-end-line="200" selection-end-column="50" />
-          <folding>
-            <element signature="e#7003#7004#0" expanded="true" />
-            <element signature="e#7053#7054#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MapGeneratorGUI.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GuiApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="200" column="36" lean-forward="false" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="36" />
-          <folding>
-            <element signature="method#getConnection#0;class#GuiApp#0" expanded="false" />
-            <element signature="e#5782#5783#0" expanded="true" />
-            <element signature="e#5827#5828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MapGeneratorGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/coorinates/xyz.txt">
@@ -748,22 +736,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MapGeneratorGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MapGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="1008">
+          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="61" column="115" lean-forward="false" selection-start-line="61" selection-start-column="115" selection-end-line="61" selection-end-column="115" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="1155">
+          <caret line="55" column="45" lean-forward="false" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GuiApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="211" column="34" lean-forward="false" selection-start-line="211" selection-start-column="34" selection-end-line="211" selection-end-column="34" />
+          <folding>
+            <element signature="method#getConnection#0;class#GuiApp#0" expanded="false" />
+            <element signature="e#6230#6231#0" expanded="true" />
+            <element signature="e#6275#6276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GuiApp.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TCPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="254" column="69" lean-forward="false" selection-start-line="254" selection-start-column="69" selection-end-line="254" selection-end-column="69" />
+          <folding>
+            <element signature="e#6875#6876#0" expanded="true" />
+            <element signature="e#6920#6921#0" expanded="true" />
           </folding>
         </state>
       </provider>

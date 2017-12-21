@@ -1,3 +1,5 @@
+import javafx.scene.control.Slider;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -25,6 +27,7 @@ public class GuiApp extends JFrame {
     private JLabel Connection;
     private JLabel robotControlLabel;
     private JButton openDataButton;
+    private Slider speedControler;
     private JSlider slider1;
     private PlayerPanel v1, v2, v3, v4;
     private MenuFactory menuFactory;
@@ -196,6 +199,20 @@ public class GuiApp extends JFrame {
     }
     public void setGenrateMap(JButton generateMap) {
         this.generateMap = generateMap;
+    }
+
+    public JButton getUstawButton() {
+        return ustawButton;
+    }
+    public void setUstawButton(JButton ustawButton) {
+        this.ustawButton = ustawButton;
+    }
+
+    public int getSpeedControler() {
+        return (int) speedControler.getValue();
+    }
+    public void setSpeedControler(Slider speedControler) {
+        this.speedControler = speedControler;
     }
 
     public void openMapGenerator() {

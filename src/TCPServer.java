@@ -192,21 +192,22 @@ class Connection extends Thread {
             }
         });
 
+        gui.getUstawButton().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setRozkaz("speed");
+
+            }
+        });
+
+
 //
         gui.getStartScanning().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Odpalenie skryptu
                 gui.startScanning.setEnabled(false);
                 gui.stopScanning.setEnabled(true);
                 setRozkaz("./template3");
-                if (rozkaz == "./template3"){
-                    setRozkaz("setfile xxx.txt");
-                } if (rozkaz == "setfile xxx.txt"){
-                    setRozkaz("lrfinit");
-                } if (rozkaz == "lrfmeasure 0") {
-                    setRozkaz("lrfmeasure 0");
-                }
             }
         });
 
@@ -221,7 +222,7 @@ class Connection extends Thread {
         gui.getGenerateMap().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new MapGenerator();
+                new MyFrame();
             }
         });
     }
@@ -243,11 +244,30 @@ class Connection extends Thread {
             }
 
             while (!jRadioButton.isSelected() == true) {
+                gui.startScanning.setEnabled(true);
                 System.out.println("wybierz robota");
             }
             sendToOneClient(rozkaz);
             readFromClient(cc);
             //getFile();
+
+            if (rozkaz == "speed"){
+                setRozkaz(Integer.toString(gui.getSpeedControler()));
+                readFromClient(cc);
+                sendToOneClient(rozkaz);
+            }
+
+            if (rozkaz == "./template3"){
+                setRozkaz("setfile xxxy.txt");
+            }
+
+            if (rozkaz == "setfile xxxy.txt"){
+                setRozkaz("lrfinit");
+            }
+
+            if (rozkaz == "lrfinit"){
+                setRozkaz("lrfmeasure 0");
+            }
         }
 
         System.out.println("Client " + clientSocket.getInetAddress().getHostName() + " : " + clientSocket.getPort() + " disconnect");
