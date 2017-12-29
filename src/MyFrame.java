@@ -4,12 +4,14 @@ import java.awt.geom.Ellipse2D;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
+
+import static java.lang.Math.abs;
 
 public class MyFrame extends JFrame {
 
     public MyFrame (){
         super("Map generator");
+
         setContentPane(new DrawPane());
         setDefaultCloseOperation(HIDE_ON_CLOSE);
         setInitialSize();
@@ -18,21 +20,25 @@ public class MyFrame extends JFrame {
 
     private void setInitialSize() {
         final Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        final int screenWidth = 600;
-        final int screenHeight = 600;
-        setBounds(1500,1200,1500,1200);
+        setSize(900,900);
+        setBackground(Color.BLACK);
         setLocation(0, 0);
     }
 }
 
 class DrawPane extends JPanel {
+
+    public double robotPositionX = 450;
+    public double robotPositionY = 450;
     JButton button = new JButton("Save to file");
     public DrawPane(){
         JPanel panel2 = new JPanel();
+        JScrollPane scrollPane = new JScrollPane(panel2);
+        scrollPane.setViewportView(panel2);
         add(panel2);
         panel2.add(button);
         add(panel2);
-
+        panel2.setSize(400,400);
     }
     public void paintComponent(Graphics g) {
         try {
@@ -46,31 +52,22 @@ class DrawPane extends JPanel {
 
     public void drawPoints (Graphics g) throws IOException {
         super.paintComponent(g);
-        //makefile();
-        String fileName = "src/coorinates/xxxy.txt";
+        String fileName = "src/coorinates/test.txt";
         BufferedReader file = new BufferedReader(new FileReader(fileName));
-        ArrayList<Double> xCoordinate = new ArrayList<Double>();
-        ArrayList<Double> yCoordinate = new ArrayList<Double>();
         String c2 = file.readLine();
         Graphics2D g2 = (Graphics2D) g;
         try{
             while ((c2 = file.readLine()) != null) {
                 c2 = file.readLine();
                 String[] arr = c2.split(" ");
-                xCoordinate.add(Double.parseDouble(arr[0]));
-                yCoordinate.add(Double.parseDouble(arr[1]));
-                Ellipse2D point = new Ellipse2D.Double(Double.parseDouble(arr[0]), Double.parseDouble(arr[1]), 2, 2);
-                g2.draw(point);
+                Ellipse2D point = new Ellipse2D.Double(abs((Double.parseDouble(arr[0]) + robotPositionX)/5), abs((Double.parseDouble(arr[1]) + robotPositionY)/5), 2, 2);
+                g2.fill(point);
             }
+
+            g.setColor(Color.BLUE);
+            g.fillOval(500,500,10,10);
         } catch (IOException e) {
             e.printStackTrace();
         }
-//        Graphics2D g2 = (Graphics2D) g;
-//        for (double x : xCoordinate){
-//            for (double y : yCoordinate){
-//                Ellipse2D point = new Ellipse2D.Double(x,y,0.5,0.5);
-//                g2.draw(point);
-//            }
-        //}
     }
 }
